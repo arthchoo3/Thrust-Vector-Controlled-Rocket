@@ -7,5 +7,6 @@ The rocket has an overall length of 490.75mm (19.32”), a diameter of 74.5mm (2
  To control the direction of the thrust, the rocket uses a set of two gimbals which allows for rotation around two axes (one for roll and one for pitch). There is one SG90 Micro Servo to actuate each gimbal.
 
  ## Avionics
-This avionics unit uses an ATmega328 microcontroller programmed with Arduino. It is powered by two 18650 lithium-ion batteries in series which produce a total of 7.4 volts, a battery eliminator circuit then drops this voltage to the operational 5 volts. Using an MPU-6050 gyroscope/potentiometer, the ATmega328 determines the rocket’s orientation and sends signals to the gimbal motors to adjust accordingly.
- 
+This avionics unit uses an ATmega328 microcontroller programmed with Arduino. It is powered by two 18650 lithium-ion batteries in series. Using an MPU-6050 gyroscope/potentiometer, the ATmega328 determines the rocket’s orientation and sends signals to the gimbal motors to adjust accordingly.
+ ![Avionics Compartment](https://github.com/arthchoo3/Thrust-Vector-Controlled-Rocket/assets/140445967/93fc24c0-f2da-45a0-9601-28816c78e207)
+
